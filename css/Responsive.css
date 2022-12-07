@@ -1,0 +1,399 @@
+/*Custom Responsive css Edited by Anuj -8595232838*/
+
+.mediaquerydetection {
+    position: fixed;
+    top: 264px;
+    z-index: 999999;
+    height: 1px;
+    width: 100%;
+    display: none;
+    
+}
+
+.mediaquerydetection:after {
+    content: "device name";
+    color: #010101;
+    position: absolute;
+    left: 104px;
+    top: 10px;
+    padding: 1px 20px;
+    display: inline-block;
+    background: rgba(221, 220, 217, 0.28);
+    font-size: 14px
+}
+
+@media(max-width:768px) {
+    footer .mapwrapper .mapaddressoverlay .togglebutton{
+        display: none!important;
+    }
+}
+
+
+/*i phone Device Media Query*/
+
+
+/*samsung Device Media Query*/
+
+
+/* ----------- Galaxy S3 ----------- */
+
+
+/* Portrait and Landscape */
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+    .mediaquerydetection:after {
+        content: " samsung Galaxy S3 :LP";
+    }
+}
+
+
+/* Portrait */
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+    .mediaquerydetection:after {
+        content: " samsung Galaxy S3 :P";
+    }
+}
+
+
+/* Landscape */
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+    .mediaquerydetection:after {
+        content: " samsung Galaxy S3 :L";
+    }
+}
+
+
+/* ----------- Galaxy S4 ----------- */
+
+
+/* Portrait and Landscape */
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    .mediaquerydetection:after {
+        content: " samsung Galaxy S4 :LP";
+    }
+}
+
+
+/* Portrait */
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+    .mediaquerydetection:after {
+        content: " samsung Galaxy S4 :P";
+    }
+}
+
+
+/* Landscape */
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    .mediaquerydetection:after {
+        content: " samsung Galaxy S4 :L";
+    }
+}
+
+
+/* ----------- Galaxy S5 ----------- */
+
+
+/* Portrait and Landscape */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    .mediaquerydetection:after {
+        content: " samsung Galaxy S5 :LP";
+    }
+}
+
+
+/* Portrait */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+    .mediaquerydetection:after {
+        content: " samsung Galaxy S5 :P";
+    }
+}
+
+
+/* Landscape */
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    .mediaquerydetection:after {
+        content: " samsung Galaxy S5 :L";
+    }
+}
+
+
+/* ----------- iPad mini ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .mediaquerydetection:after {
+        content: " iPad mini :LP";
+    }
+}
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .mediaquerydetection:after {
+        content: " iPad mini :P";
+    }
+}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .mediaquerydetection:after {
+        content: " iPad mini :L";
+    }
+}
+
+
+/* ----------- iPad 1 and 2 ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .mediaquerydetection:after {
+        content: " iPad 1 and 2 :LP";
+    }
+}
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .mediaquerydetection:after {
+        content: " iPad 1 and 2 :P";
+    }
+}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .mediaquerydetection:after {
+        content: " iPad 1 and 2 :L";
+    }
+}
+
+
+/* ----------- iPad 3 and 4 ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .mediaquerydetection:after {
+        content: " iPad 3 and 4 :LP";
+    }
+}
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .mediaquerydetection:after {
+        content: " iPad 3 and 4 :P";
+    }
+}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .mediaquerydetection:after {
+        content: " iPad 3 and 4 :L";
+    }
+}
+
+
+/*samsung tab*/
+
+
+/* ----------- Galaxy Tab 10.1 ----------- */
+
+
+/* Portrait and Landscape */
+
+@media (min-device-width: 800px) and (max-device-width: 1280px) {
+    .mediaquerydetection:after {
+        content: " Galaxy Tab 10.1:LP";
+    }
+}
+
+
+/* Portrait */
+
+@media (max-device-width: 800px) and (orientation: portrait) {
+    .mediaquerydetection:after {
+        content: " Galaxy Tab 10.1:P";
+    }
+}
+
+
+/* Landscape */
+
+@media (max-device-width: 1280px) and (orientation: landscape) {
+    .mediaquerydetection:after {
+        content: " Galaxy Tab 10.1:L";
+    }
+}
+
+
+/*laptops*/
+
+
+/* ----------- Non-Retina Screens ----------- */
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+    .mediaquerydetection:after {
+        content: "laptops Non-Retina ";
+    }
+}
+
+
+/* ----------- Retina Screens ----------- */
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    .mediaquerydetection:after {
+        content: " laptop Retina ";
+    }
+}
+
+
+/* ----------- iPhone 6 ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .mediaquerydetection:after {
+        content: "iPhone 6 :LP";
+    }
+}
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .mediaquerydetection:after {
+        content: "iPhone 6 :P";
+    }
+}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .mediaquerydetection:after {
+        content: "iPhone 6 :L";
+    }
+}
+
+
+/* ----------- iPhone 6+ ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    .mediaquerydetection:after {
+        content: "iPhone 6+ :LP";
+    }
+}
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+    .mediaquerydetection:after {
+        content: "iPhone 6+ :P";
+    }
+}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    .mediaquerydetection:after {
+        content: "iPhone 6+ :L";
+    }
+}
+
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    .mediaquerydetection:after {
+        content: "iPhone 5 and 5S :LP";
+    }
+}
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .mediaquerydetection:after {
+        content: "iPhone 5 and 5S :P";
+    }
+}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .mediaquerydetection:after {
+        content: "iPhone 5 and 5S :L";
+    }
+}
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .mediaquerydetection:after {
+        content: "iPhone 4 and 4S :PL";
+    }
+}
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .mediaquerydetection:after {
+        content: "iPhone 4 and 4S :P";
+    }
+    .navbarlogo img {
+        max-height: 41px;
+        padding-top: 0;
+        margin-top: 11px;
+    }
+}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .mediaquerydetection:after {
+        content: "iPhone 4 and 4S :L";
+    }
+}
+
+
+
+
+

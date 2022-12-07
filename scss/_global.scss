@@ -1,0 +1,270 @@
+// Global styling for this template
+body {
+    @include body-font;
+    padding: 0px;
+    margin: 0px;
+    color: $gray-600;
+    background: $lightgray;
+    font-size: 1rem;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include heading-font;
+
+}
+
+.subheading {
+    @include heading-font;
+}
+
+
+
+.PageWrapper {}
+
+.linknormal {
+
+    &:hover,
+    &:focus {
+        color: $orange;
+    }
+}
+
+.notification {
+
+    @include border-radius(2px);
+}
+/*About Section*/
+.aboutSection
+{
+background:$white;
+}
+
+/*---------------------------------------------------Home Page Css------------------*/
+.headerMain{
+     position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+        z-index: 999;
+    @include transition;
+    
+ 
+    
+     .navbarThemeColor
+    {
+        background:#07060685 !important;
+        
+    }
+.headerLogo
+{
+        position: absolute;
+    top: 0;
+}
+.headerTop
+{
+   
+    background: $black;
+    padding: 3px 0;
+    color: $headerblacklink; 
+    height: 30px;
+    z-index: 999;
+    a {
+     color:$white;
+        i
+        {color:$red;}
+        &:hover{
+            
+        }
+        &:focus{
+            
+        }
+        &:active{
+            
+        }
+    }
+}
+
+    
+    .nav-item.dropdown .dropdown-menu{
+      background: #fafafa;
+    float: right;
+    left: auto;
+    right: 15px;
+    width:auto !important;
+    margin-top: 0px;
+        @include border-radius(0);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+    border-color: rgba(120, 130, 140, 0.13);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    display: inline-block;
+    transform-origin: right 0px;
+    }
+    .nav-item.dropdown.show .dropdown-menu{
+            transform: scale(1);
+    transform-origin: right 0px;
+    }
+    .nav-item.dropdown.color1 .dropdown-menu {
+        background: orange !important;
+        &:hover {
+            background: orange !important;
+        }
+    }
+     .nav-item.dropdown.color2 .dropdown-menu {
+        background: #fdcc05 !important;
+        &:hover {
+            background: #fdcc05 !important;
+        }
+    }
+     .nav-item.dropdown.color3 .dropdown-menu {
+        background: green !important;
+        &:hover {
+            background: green !important;
+        }
+    }
+     .nav-item.dropdown.color4 .dropdown-menu {
+        background: #e12b1e !important;
+        &:hover {
+            background: #e12b1e !important;
+        }
+    }
+     .nav-item.dropdown.color5 .dropdown-menu {
+           background: #c96eff !important;
+        &:hover {
+           background: #c96eff !important;
+        }
+    }
+    .nav-item.dropdown .dropdown-menu 
+    {
+        ul
+    { 
+           background: green;
+    list-style: none;
+    position: absolute;
+    right: -126px;
+    top: -1px;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 1px #000;
+        opacity: 0;
+        &:before
+        {
+               content: ">";
+    position: absolute;
+    left: -18px;
+    top: 11px;
+    color: #fff;
+        }
+        li{
+            background:green;
+            a{
+                color:#fff;
+            }
+        }
+        
+    }
+        &:hover ul{
+            opacity: 1;
+        }
+    }
+   
+    .nav-item.dropdown.show .dropdown-menu .dropdown-item
+    {
+        color:$white;
+        &:hover{
+                background: #1c1b1a0f !important;
+           
+        }
+    }
+     .navbar-nav .nav-item .nav-link
+    {
+       padding: .5rem 1rem;
+    text-transform: uppercase;
+    color: $white;
+    }
+}
+.headerMain.Active
+{margin-top: -30px;
+    .navbarThemeColor
+    {
+        background:$black !important;
+        padding: 0 15px;
+    }
+   .navbar-nav .nav-item .nav-link
+    {
+            padding: 16px 16px;
+    text-transform: uppercase;
+    color: $white;
+    }
+}
+
+.aboutSection
+{
+    padding: 15px 0;
+}
+.sectionCat
+{background: #fafafa;padding:15px;}
+.sectionCat img
+{max-height: 300px;margin:0 auto;display: block;}
+.sectionCat h3{margin: 0;
+    font-size: 1.2em;
+    font-family: 'Roboto', Arial;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    margin-top: 25px;
+    color: #222;
+    text-align: center;}
+.sectionCat p{color:$black; text-align: center;}
+
+.sectionCat.bx1{background-color: #ffeaba;background-image: url(../img/scheme.png);}
+.sectionCat.bx2{background-color: #ffbe99;}
+.sectionCat.bx3{background-color: #ffeaba;
+background-image: url(../img/wincar.png);
+}
+.vdbtn
+{
+     background: #fff;
+    color: #000;
+    padding: 4px 15px;
+    border: 1px solid #555;
+    margin-bottom: 10px;
+    display: inline-block;
+    @include transition;
+    &:hover,
+    &:focus{
+        background:#000;
+        color:#fff;
+        outline: none;
+        text-decoration: none;
+    }
+}
+
+.ProductSection
+{
+    background:$productsecbg;min-height: 300px;
+    padding:30px 0;
+    overflow: hidden;
+    outline: 0;
+    position: relative;
+   
+    .WhatsnewSection
+    {
+        background:#fff;
+        padding: 10px;
+        min-height: 400px;
+    }
+}
+
+
+
+
