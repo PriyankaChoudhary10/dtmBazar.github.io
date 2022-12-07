@@ -912,8 +912,6 @@ footer .formwrapper {
       color: #fff; }
       footer .formwrapper .contaolsinput .buttonsendpost:focus {
         outline: none; }
-footer .lowerfooter {
-  min-height: 400px; }
 
 .videowrapper .modal-content {
   background: transparent;
